@@ -6,22 +6,17 @@ local chatService, players = game:GetService("Chat"), game:GetService("Players")
 local player = players.LocalPlayer
  
 local replacements = {
-	["e"] = "е",
-	["i"] = "і",
-	["o"] = "о",
-	["p"] = "р",
-	["a"] = "а",
-	["s"] = "ѕ",
-        ["c"' = "с",
-	["E"] = "Е",
-	["T"] = "Т",
-	["P"] = "Р",
-	["A"] = "А",
-	["H"] = "Н",
-	["K"] = "К",
-	["Z"] = "Ζ",
-	["B"] = "В",
-	["N"] = "Ν"
+            ["i"] = "і",
+            ["a"] = "а",
+            ["e"] = "е",
+            ["c"] = "с",
+            ["h"] = "һ",
+            ["o"] = "о",
+            ["y"] = "у",
+            ["j"] = "ј",
+            ["x"] = "х",
+            ["p"] = "р",
+            ["s"] = "ѕ",
 }
  
 local bypassing = true
